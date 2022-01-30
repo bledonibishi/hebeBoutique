@@ -1,0 +1,37 @@
+@font-face {
+  font-family: GraublauWeb;
+  src: url("Chloe/Chloe-Regular.otf") format("opentype");
+}
+* {
+  font-family: font-face;
+}
+.privacyPolicy-footer {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+h1 {
+  margin: 10%;
+  transition: font-size 0.5s;
+}
+h3 {
+  margin: 5%;
+}
+p {
+  transition: font-size 0.3s;
+}
+@media screen and (max-width: 800px) {
+  .privacyPolicy-footer {
+    width: 90%;
+    margin: 5%;
+  }
+  h1 {
+    font-size: 25px;
+    font-family: font-face;
+  }
+  p {
+    font-size: 13px;
+    transition: font-size 0.4s;
+    font-family: font-face;
+  }
+}

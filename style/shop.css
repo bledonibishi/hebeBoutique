@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.shopi {
+  margin: 5%;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.shop-title {
+  padding-left: 10%;
+  width: 30%;
+  padding-top: 7%;
+  padding-bottom: 10px;
+  color: gray;
+}
+.brands-title {
+  width: 70%;
+  color: gray;
+  padding-top: 7%;
+  padding-bottom: 10px;
+}
+
+.shop {
+  display: flex;
+  width: 100%;
+  color: grey;
+}
+.shop-by {
+  width: 30%;
+  padding-left: 10%;
+}
+.shop-by a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: grey;
+  padding-bottom: 3%;
+}
+.brands {
+  display: flex;
+  width: 70%;
+}
+.brands a {
+  display: flex;
+  text-decoration: none;
+  color: grey;
+  padding-bottom: 3%;
+}
+.brandsat {
+  padding-left: 5%;
+}

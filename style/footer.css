@@ -1,0 +1,86 @@
+.footeri {
+  color: white;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.instagram-logo img {
+  background-color: #caafa8;
+  width: 80px;
+  height: 80px;
+}
+body {
+  background-color: #caafa8;
+}
+
+.instagram-logo {
+  background-color: #caafa8;
+  text-align: center;
+  color: aquamarine;
+}
+.img {
+  background-color: #caafa8;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid white;
+  width: 120px;
+  height: 120px;
+}
+input {
+  width: 80%;
+  background-color: #caafa8;
+  border-bottom: 1px black solid;
+}
+.email-footer {
+  width: 50%;
+  margin-left: 25%;
+  background-color: #caafa8;
+  border-bottom: 2px white solid;
+  border-width: thin;
+}
+.email-footer input {
+  width: 80%;
+  background-color: #caafa8;
+  border: none;
+
+  color: white;
+  margin-top: 5%;
+  user-select: none;
+}
+.email-footer input:focus {
+  outline: none;
+}
+.email-footer a {
+  color: white;
+}
+#select {
+  border: none;
+  color: white;
+  font-size: 17px;
+  background-color: #caafa8;
+  border-bottom: 1px solid white;
+  border-width: thin;
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+#select:focus {
+  outline: none;
+}
+
+.navbar-footer {
+  margin-top: 4%;
+  width: 100%;
+  margin-bottom: 4%;
+}
+.navbar-footer a {
+  width: 100%;
+  margin-left: 2%;
+  text-decoration: none;
+  color: white;
+}
+.navbar-footer a:hover {
+  border-bottom: 1px solid white;
+  border-width: thin;
+}

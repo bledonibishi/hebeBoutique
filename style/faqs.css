@@ -1,0 +1,46 @@
+.faqs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #caafa8;
+  overflow: hidden;
+}
+.faqs h1 {
+  align-items: center;
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  color: white;
+}
+.faqs label {
+  margin-bottom: 2%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20%;
+}
+.faqs a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.faqs p {
+  /* display: none; */
+  margin-top: 3%;
+  max-width: 80%;
+}
+.faqs--content {
+  display: none;
+}
+.faqs--content--active {
+  display: grid;
+  margin-top: 3%;
+  max-width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .faqs label {
+    margin-bottom: 2%;
+    margin-left: 0%;
+    font-size: 14px;
+  }
+}

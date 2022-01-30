@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #caafa8;
+  color: white;
+}
+.shipping-footer p {
+  width: 60%;
+  margin-left: 20%;
+}
+.shipping-footer h2,
+h6 {
+  margin: 2%;
+}
+.title-shipping {
+  padding: 10%;
+}
+@media screen and (max-width: 800px) {
+  .shipping-footer p {
+    width: 90%;
+    margin: 5%;
+    font-size: 13px;
+  }
+  .shipping-footer h2,
+  h3 {
+    font-size: 20px;
+  }
+}

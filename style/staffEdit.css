@@ -1,0 +1,80 @@
+@font-face {
+  font-family: GraublauWeb;
+  src: url("Chloe/Chloe-Regular.otf") format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #caafa8;
+  color: white;
+  font-family: font-face;
+}
+body {
+  background-color: #caafa8;
+}
+.boyback-image {
+  width: 100%;
+  position: relative;
+}
+.boyback-image img {
+  width: 100%;
+  height: 100vh;
+}
+.pp {
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  color: white;
+  background-color: transparent;
+}
+.pp-bottom {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  padding: 7%;
+}
+.products {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+.products img {
+  width: 80%;
+  height: 90%;
+}
+.product-details {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  img {
+    height: 40%;
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+  .products img {
+    width: 100%;
+  }
+  .product-details {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+}

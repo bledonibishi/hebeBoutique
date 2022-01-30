@@ -1,0 +1,28 @@
+.termsOfUse-footer {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+h1 {
+  margin: 10%;
+  transition: font-size 0.5s;
+}
+h3 {
+  margin: 5%;
+}
+p {
+  transition: font-size 0.3s;
+}
+@media screen and (max-width: 800px) {
+  .termsOfUse-footer {
+    width: 90%;
+    margin: 5%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 13px;
+    transition: font-size 0.4s;
+  }
+}
